@@ -31,7 +31,7 @@ async function search_function(inputWord){
         result.innerHTML = `
     <div class="word">
         <h3>${inputWord}</h3>
-        <button onclick="playSound()">
+        <button onclick="playAudio()">
             <i class="material-icons">mic</i>      
         </button>
     </div>
@@ -49,20 +49,13 @@ async function search_function(inputWord){
     sound.getAttribute("src", `https:${data[0].meanings[0].
     definitions[0].audio}`);
     
-    function playSound(){
+    function playAudio(){
         sound.play();
     };
     
 };
 
-function playSound(){
+function playAudio(){
     sound.play();
 };
 
-
-/* 
-outstanding task
-...fixed the audio error
-...resized to normal size when the search box is empty
-...give an error div when the word is not found
-*/
