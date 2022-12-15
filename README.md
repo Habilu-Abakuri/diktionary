@@ -6,3 +6,5 @@ The main technologies been used were:
 + VANILLA JAVASCRIPT
 - FETCH API
 
+## The app
+The dictionary app is based on the free dictionary api and it is modelled on the ther
