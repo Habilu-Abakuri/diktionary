@@ -12,3 +12,5 @@ The sound icon only appears when searching the word.
 To search for word, type the word into the search box and click on the search button. If the word is available, the definition and examples of uage will be shown on the display block. However, unavailable words will display an alert with the message **word not in dictionary**. Some words definitions might have **undefined** examples on the display block
 
 ## The code
+The primary objective of the project to is to let me practice with basic code in javascript and css without the use of libraries, since the long term objective is to be adept with the whole javascript environment starting with vanilla javascript. 
+Therefore, only raw HTML, CSS and Javascript was used.
