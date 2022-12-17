@@ -7,4 +7,7 @@ The main technologies been used were:
 - FETCH API
 
 ## The app
-The dictionary app is based on the free dictionary api and it is modelled on the ther
+The dictionary app is based on the free dictionaryapi.dev api and it is modelled like an online thesaurus. The main features of the app has a pink background and inner display which is has a white background color. The display block has the search area and the display area for the word definition and and examples of word usage. 
+The sound icon only appears when searching the word.
+
+## The code
