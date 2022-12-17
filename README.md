@@ -9,5 +9,6 @@ The main technologies been used were:
 ## The app
 The dictionary app is based on the free dictionaryapi.dev api and it is modelled like an online thesaurus. The main features of the app has a pink background and inner display which is has a white background color. The display block has the search area and the display area for the word definition and and examples of word usage. 
 The sound icon only appears when searching the word.
+To search for word, type the word into the search box and click on the search button. If the word is available, the definition and examples of uage will be shown on the display block. However, unavailable words will display an alert with the message **word not in dictionary**. Some words definitions might have **undefined** examples on the display block
 
 ## The code
