@@ -17,4 +17,5 @@ Therefore, only raw HTML, CSS and Javascript was used. The app has three files
 - app.js
 * index.html
 + style.css
+
 These files contain the respective html, javascript and css styling respectively. 
