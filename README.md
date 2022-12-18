@@ -13,4 +13,8 @@ To search for word, type the word into the search box and click on the search bu
 
 ## The code
 The primary objective of the project to is to let me practice with basic code in javascript and css without the use of libraries, since the long term objective is to be adept with the whole javascript environment starting with vanilla javascript. 
-Therefore, only raw HTML, CSS and Javascript was used.
+Therefore, only raw HTML, CSS and Javascript was used. The app has three files
++app.js
+-index.html
++style.css
+ These files contain the respective html, javascript and css styling respectively. 
