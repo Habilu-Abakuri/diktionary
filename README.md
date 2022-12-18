@@ -19,3 +19,7 @@ Therefore, only raw HTML, CSS and Javascript was used. The app has three files
 + style.css
 
 These files contain the respective html, javascript and css styling respectively. 
+The html file has the typical html5 boilerplate with the head tag having the meta and href link for css styling and google fonts.
+The app.js file is an external file linked to the html in the head tag. The code sniping mainly deals with the fetch api and rending the html output in the javascript code.
+
+##The fetch api
