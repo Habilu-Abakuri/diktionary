@@ -35,4 +35,18 @@ An example of getting the word **hello** from the api. send request to
 ```
 https://api.dictionaryapi.dev/api/v2/entries/en/hello
 ```
+##Fetch api
+  The fetch api provides an interface for fetching resources including across networks. It is a web api that uses promises to make request over **http/1.1 protocol**. The fetch api is included in all modern browsers and is used through the fetch method.
+  
+  The caller function is **async** and **await** to handle the promise.
+  ```
+  async function search_function(inputWord){
+    const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${inputWord}`);
+    
+    if (!response.ok){
+        /*throw new Error(`HTTP error! status: ${response.status}`);*/
+        alert("word not in dictionary")
+    }
+    const data = await response.json();
+```
 
