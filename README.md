@@ -44,9 +44,24 @@ https://api.dictionaryapi.dev/api/v2/entries/en/hello
     const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${inputWord}`);
     
     if (!response.ok){
-        /*throw new Error(`HTTP error! status: ${response.status}`);*/
+        throw new Error(`HTTP error! status: ${response.status}`);
         alert("word not in dictionary")
     }
     const data = await response.json();
 ```
+  The function is then call in the eventListener function. A snippet of the code
+  ```
+   }
+
+    search_function(inputWord)
+    
+});
+```
+  The rendering of the html is done in the javascript code (app.js).
+  
+ ##Improvements
+  The app is prime for further improvements. Notably is the resizing of the searchbox when using the search to improve aesthetics. 
+  
+  Also improvements needs to be done on the display of the word definition and example of usage, which should be collapsed when no word appears on the searchbox.
+  
 
