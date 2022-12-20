@@ -23,4 +23,16 @@ The html file has the typical html5 boilerplate with the head tag having the met
 The app.js file is an external file linked to the html in the head tag. The code sniping mainly deals with the fetch api and rending the html output in the javascript code.
 
 ## Dictionary api
-The dictionary api is a free 
+The dictionary api is a free api that is provide users with an api that can used in game development, speech and text technology. 
+
+The basic syntax is 
+```
+https://api.dictionaryapi.dev/api/v2/entries/en/<word>
+```
+
+The syntax is a url request to the api to fetch the data. **<word>** is the formatted search word input in javascript to be fetch from the api.
+An example of getting the word **hello** from the api. send request to
+```
+https://api.dictionaryapi.dev/api/v2/entries/en/hello
+```
+
