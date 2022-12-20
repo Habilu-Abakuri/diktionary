@@ -35,7 +35,8 @@ An example of getting the word **hello** from the api. send request to
 ```
 https://api.dictionaryapi.dev/api/v2/entries/en/hello
 ```
-##Fetch api
+  
+## Fetch api
   The fetch api provides an interface for fetching resources including across networks. It is a web api that uses promises to make request over **http/1.1 protocol**. The fetch api is included in all modern browsers and is used through the fetch method.
   
   The caller function is **async** and **await** to handle the promise.
@@ -59,7 +60,8 @@ https://api.dictionaryapi.dev/api/v2/entries/en/hello
 ```
   The rendering of the html is done in the javascript code (app.js).
   
- ##Improvements
+  
+## Improvements
   The app is prime for further improvements. Notably is the resizing of the searchbox when using the search to improve aesthetics. 
   
   Also improvements needs to be done on the display of the word definition and example of usage, which should be collapsed when no word appears on the searchbox.
